@@ -1,18 +1,16 @@
 //PRINTING FIRST N NATURAL NUMEBRS
 //INPUT -3
 //OUTPUT - 1 2 3
-
-
 #include<stdio.h>
-void main()
+int main()
 {
 	int i,n;
-	printf("Enter upper limit : ");
+	printf("Enter upper limit :\n ");
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
   {
-    	printf("\n %d",i);
+    	printf(" %d \t",i);
   }
-
+return 0;
 	//Fill the missing code here
  }
