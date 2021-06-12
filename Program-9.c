@@ -13,22 +13,23 @@ int main()
 
   
   for (c = 0; c < n; c++)
-    scanf("%d", &array[c]);
+  {scanf("%d", &array[c]);}
 
- 
+  
   scanf("%d", &search);
 
   for (c = 0; c < n; c++)
   {
     if (array[c] == search)    /* If required element is found */
     {
-      //printf("%d is present at location %d", search, c+1);
+      printf("%d is present at location %d", search, c+1);
       printf("%d",c+1);
       break;
     }
+  
+   else if (c == n)
+    printf(" \n %d is not present in the array",search);
   }
-  if (c == n)
-    printf("%d is not present in the array", );
 
   return 0;
 }
