@@ -5,11 +5,11 @@
 int main()
 {
 	int i,n;
-	printf("Enter upper limit :\n ");
+	printf("Enter upper limit : ");
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
   {
-    	printf(" %d \t",i);
+    	printf(" %d ",i);
   }
 return 0;
 	//Fill the missing code here
