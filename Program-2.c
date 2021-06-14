@@ -5,7 +5,7 @@
 int main()
 {
 	int i,n;
-	printf("Enter upper limit : ");
+	printf("Enter the number of elements\n ");
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
   {
