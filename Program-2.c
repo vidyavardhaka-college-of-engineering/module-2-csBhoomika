@@ -5,8 +5,8 @@
 int main()
 {
 	int i,n;
-	printf("Enter the number of elements\n ");
-	scanf("%d\n",&n);
+	printf("Enter the number of elements ");
+	scanf("%d",&n);
 	for(i=1;i<=n;i++)
   {
     	printf("%d\t",i);
